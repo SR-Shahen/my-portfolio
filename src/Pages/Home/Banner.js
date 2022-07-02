@@ -18,9 +18,9 @@ const Banner = () => {
 
                         <button class="btn btn-primary">Get Started</button>
                         <div className='flex '>
-                            <a href='https://www.facebook.com/profile.php?id=100076041474855' target='_blank' rel="noReferrer"><img className='w-8 bg-teal-400 mx-2 rounded-full  ' src={facebook} alt="" /></a>
-                            <a href="https://github.com/Al-aminhossain1" target='_blank' rel='noReferrer'><img className='w-8 bg-teal-400 mx-2 rounded-full ' src={github} alt="" /></a>
-                            <a href="https://www.linkedin.com/in/md-al-amin-hossain-1234b9241/" target="_blank" rel='noReferrer'> <img className='w-8 bg-teal-400 mx-2 rounded-full ' src={linkedin} alt="" /></a>
+                            <a href='https://www.facebook.com/profile.php?id=100069853458040' target='_blank' rel="noReferrer"><img className='w-8 bg-teal-400 mx-2 rounded-full  ' src={facebook} alt="" /></a>
+                            <a href="https://github.com/SR-Shahen" target='_blank' rel='noReferrer'><img className='w-8 bg-teal-400 mx-2 rounded-full ' src={github} alt="" /></a>
+                            <a href="https://www.linkedin.com/in/md-shahenoor-rahman-61016a227/" target="_blank" rel='noReferrer'> <img className='w-8 bg-teal-400 mx-2 rounded-full ' src={linkedin} alt="" /></a>
 
                         </div>
                     </div>
