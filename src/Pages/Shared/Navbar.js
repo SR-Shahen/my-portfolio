@@ -19,11 +19,14 @@ const Navbar = () => {
                         <Link to="/" class="block mt-4 lg:inline-block lg:mt-0 lg:text-white lg:hover:text-purple-900 hover:text-teal-400 mr-4">
                             HOME
                         </Link>
-                        <Link to="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 lg:text-white lg:hover:text-purple-900 hover:text-teal-400  mr-4">
-                            Examples
+                        <Link to="#about" class="block mt-4 lg:inline-block lg:mt-0 lg:text-white lg:hover:text-purple-900 hover:text-teal-400  mr-4">
+                            ABOUT
                         </Link>
-                        <Link to="/blog" class="block mt-4 lg:inline-block lg:mt-0 lg:text-white lg:hover:text-purple-900 hover:text-teal-400  ">
-                            Blog
+                        <Link to="#contact" class="block mt-4 lg:inline-block lg:mt-0 lg:text-white lg:hover:text-purple-900 hover:text-teal-400  mr-4">
+                            CONTACT
+                        </Link>
+                        <Link to="3#portfolio" class="block mt-4 lg:inline-block lg:mt-0 lg:text-white lg:hover:text-purple-900 hover:text-teal-400  ">
+                            PORTFOLIO
                         </Link>
                     </div>
                     <div>
