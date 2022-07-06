@@ -3,35 +3,35 @@ import contact from '../../Assets/images/contact.png'
 
 const Contact = () => {
     return (
-        <div id='contact' class="hero bg-black">
-            <div class="hero-content flex-col lg:flex-row">
-                <div class="text-center lg:text-left">
+        <div id='contact' className="hero bg-black">
+            <div className="hero-content flex-col lg:flex-row">
+                <div className="text-center lg:text-left">
                     <img className='lg:ml-32 h-3/5 lg:w-4/5' src={contact} alt="" />
                 </div>
-                <div class="lg:mr-32 card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-                    <div class="card-body bg-black text-white">
-                        <h1 class="text-3xl text-center font-bold">Contact ME!</h1>
-                        <div class="form-control">
-                            <label class="label">
-                                <span class="label-text lg:text-lg text-white">Enter Your Name</span>
+                <div className="lg:mr-32 card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                    <div className="card-body bg-black text-white">
+                        <h1 className="text-3xl text-center font-bold">Contact ME!</h1>
+                        <div className="form-control">
+                            <label className="label">
+                                <span className="label-text lg:text-lg text-white">Enter Your Name</span>
                             </label>
-                            <input type="text" placeholder="Name" class="input input-bordered my-3" />
+                            <input type="text" placeholder="Name" className="input input-bordered my-3" />
                         </div>
-                        <div class="form-control">
-                            <label class="label">
-                                <span class="label-text lg:text-lg text-white">Enter Your Email</span>
+                        <div className="form-control">
+                            <label className="label">
+                                <span className="label-text lg:text-lg text-white">Enter Your Email</span>
                             </label>
-                            <input type="text" placeholder="email" class="input input-bordered py-3" />
+                            <input type="text" placeholder="email" className="input input-bordered py-3" />
                         </div>
-                        <div class="form-control">
-                            <label class="label">
-                                <span class="label-text lg:text-lg text-white">Enter Your Message</span>
+                        <div className="form-control">
+                            <label className="label">
+                                <span className="label-text lg:text-lg text-white">Enter Your Message</span>
                             </label>
-                            <textarea class="textarea textarea-bordered my-3" placeholder="Message"></textarea>
+                            <textarea className="textarea textarea-bordered my-3" placeholder="Message"></textarea>
                         </div>
 
-                        <div class="form-control mt-6">
-                            <button class="btn btn-primary">Message</button>
+                        <div className="form-control mt-6">
+                            <button className="btn btn-primary">Message</button>
                         </div>
                     </div>
                 </div>

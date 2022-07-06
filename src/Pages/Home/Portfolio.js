@@ -1,9 +1,5 @@
 import React from 'react';
 import doctorsPortal from '../../Assets/images/doctors portal.png'
-import comfortFurniture from '../../Assets/images/comfort furniture.png'
-import cyberDoctor from '../../Assets/images/cyber doctor.png'
-import productAnalysis from '../../Assets/images/product analysis.png'
-
 const Portfolio = () => {
     return (
         <div className='mt-0 bg-black' id='portfolio'>
